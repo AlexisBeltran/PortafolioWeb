@@ -4,12 +4,18 @@ import './index.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import Index from './Page/Index'
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Index/> 
+    }
+  ],
+  //AGREGAR BASENAME A LA CONFIGURACIÓN DE BROWSERROUTER
   {
-    path: "/",
-    element: <Index/> 
+    basename: "/PortafolioWeb"
   }
-])
+)
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
