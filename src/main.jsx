@@ -1,8 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import DB_URL from "./consts/index"
 import './index.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import Index from './Page/Index'
+console.log(DB_URL.DB_URL);
 
 const router = createBrowserRouter(
   [
@@ -13,7 +15,7 @@ const router = createBrowserRouter(
   ],
   //AGREGAR BASENAME A LA CONFIGURACIÓN DE BROWSERROUTER
   {
-    basename: "/PortafolioWeb"
+    basename: DB_URL.DB_URL
   }
 )
 

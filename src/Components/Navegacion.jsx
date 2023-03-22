@@ -24,12 +24,9 @@ const Navegacion = () => {
                     <span id="title-main-job">Desarrollador web.</span> 
                 </h1>
             </div>
-            <img src={About} className="md:absolute top-0 right-0"/>
-            
+            <img src={About} className="md:absolute top-0 right-0 w-full h-auto object-cover sm:w-full md:w-1/2"/>       
         </header>
     </>
-    
-    
   )
 }
 
