@@ -7,6 +7,7 @@ html{
 }
 :root{
   --color-primario: #0EE6B7;
+  --color-blanco: #FFF;
 }
 
 *,*::before, *::after{
@@ -59,12 +60,50 @@ body{
   margin-top: 4rem;
 }
 
+
+/*SECCION EXPERIENCIA*/
+
+#experiencia{
+  background: conic-gradient(from 357deg at 100% 50%, #00FFE0 0deg, #7000FF 296deg);
+  border: 1px solid #000000;
+  filter: blur(750px);
+}
+
+#experiencia h1{
+  color: var(--color-blanco);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+#experienciaCard{
+  display: inline-block;
+  background: linear-gradient(180deg, #171A1B 0%, rgba(23, 26, 27, 0) 100%);
+  opacity: 0.8;
+  border-radius: 15px 15px 0px 0px;
+}
+
+
+/*MEDIA QUERYS*/
 @media (max-width: 1400px){
   #title-main-name,
   #title-main,
   #title-main-job{
     font-size: 60px;
   }
+}
+
+
+@media (max-width: 1024px){
+  #title-main,
+  #title-main-name{
+    font-size: 39px;
+    line-height: 60px;
+  }
+  #title-main-job{
+    font-size: 45px;
+    line-height: 70px;
+  }
+  
 }
 
 @media (max-width: 768px){

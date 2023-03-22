@@ -4,7 +4,7 @@ import About from "../Assets/Img/About.svg";
 
 const Navegacion = () => {
   return (
-    <>
+    <div className="h-screen">
         <nav className="py-7 flex flex-row justify-center md:justify-between items-center">
             <div className="hidden md:flex gap-x-4">
                 <a className="text-white text-lg" href="">Experiencia</a>
@@ -26,7 +26,7 @@ const Navegacion = () => {
             </div>
             <img src={About} className="md:absolute top-0 right-0 w-full h-auto object-cover sm:w-full md:w-1/2"/>       
         </header>
-    </>
+    </div>        
   )
 }
 
