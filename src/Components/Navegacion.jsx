@@ -16,7 +16,7 @@ const Navegacion = () => {
                 <img src={LinkedIn} alt="LinkedIn"/>
             </div>
         </nav>
-        <header className="py-7 md:relative" id="header-show">
+        <header className="md:py-7 md:relative" id="header-show">
             <div className="flex md:flex-row items-center md:justify-between">
                 <h1 className="flex flex-col" id="title-main">
                     ¡Hola!{""}
