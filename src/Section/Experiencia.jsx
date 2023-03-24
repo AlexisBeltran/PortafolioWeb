@@ -19,18 +19,25 @@ export function loader(){
 const Experiencia = () => {
     const experiencia = useLoaderData();
     return (
-        <section id="experiencia">
-            <h1>Experiencia</h1>
-            {
-                experiencia.map(exp => {
-                    return(
-                        <ExperienciaCard
-                            experiencia={exp}
-                            key={exp.id}
-                        />
-                    )
-                })
-            }
+        <section id="experiencia" className="relative">
+            <div>
+                <h1>Experiencia</h1>
+                <div className="md:grid md:grid-cols-3 md:gap-3 block">
+                    {
+                        experiencia.map(exp => {
+                            return(
+                                <ExperienciaCard
+                                    experiencia={exp}
+                                    key={exp.id}
+                                />
+                            )
+                        })
+                    }
+                </div>
+                
+            </div>
+            <div id="background-section" className="absolute top-0 left-0"></div>
+            
         </section>
     )
 }

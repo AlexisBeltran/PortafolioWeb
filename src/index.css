@@ -63,10 +63,12 @@ body{
 
 /*SECCION EXPERIENCIA*/
 
-#experiencia{
-  background: conic-gradient(from 357deg at 100% 50%, #00FFE0 0deg, #7000FF 296deg);
+#background-section{
+  background: conic-gradient(from 180deg at 50% 50%, #00FFE0 0deg, #004eff 360deg);
   border: 1px solid #000000;
   filter: blur(750px);
+  height: 100%;
+  width: 100%;
 }
 
 #experiencia h1{
@@ -82,6 +84,28 @@ body{
   border-radius: 15px 15px 0px 0px;
 }
 
+
+/* ***CARD*** */
+#trafic-light > div{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+#trafic-light > div:nth-child(1){
+  background: #FF5F56;
+}
+#trafic-light > div:nth-child(2){
+  background: #FFBD2E;
+}
+#trafic-light > div:nth-child(3){
+  background: #27C93F;
+}
+#body-card p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-blanco);
+}
 
 /*MEDIA QUERYS*/
 @media (max-width: 1400px){
