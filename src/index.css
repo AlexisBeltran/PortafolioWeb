@@ -77,7 +77,8 @@ body{
   z-index: -1;
 }
 
-#experiencia h1{
+#experiencia h1, 
+#trabajos h1{
   color: var(--color-blanco);
   font-size: 36px;
   font-weight: 700;
@@ -90,6 +91,31 @@ body{
   border-radius: 15px 15px 0px 0px;
 }
 
+
+#trabajos div div h2{
+  color: var(--color-blanco);
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 700;
+}
+
+#trabajos div div p{
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #FFF;
+}
+
+#trabajos div div a{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--color-primario);
+}
+
+#trabajos div div a:hover{
+  cursor: pointer;
+}
 
 /* ***CARD*** */
 #trafic-light > div{

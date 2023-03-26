@@ -9,7 +9,7 @@ export function loader(){
             id: 1,
             lugar: "Acuicultec",
             desde: 2021,
-            hasta: "presente",
+            hasta: "Presente",
             ruta_img: Acuicultec
         }
     ]
@@ -19,7 +19,7 @@ export function loader(){
 const Experiencia = () => {
     const experiencia = useLoaderData();
     return (
-        <section id="experiencia" className="relative">
+        <section id="experiencia" className="relative py-10">
             <div>
                 <h1 className="mb-10">Experiencia</h1>
                 <div className="md:grid md:grid-cols-3 md:gap-3 block">
@@ -37,7 +37,6 @@ const Experiencia = () => {
                 
             </div>
             <div id="background-section" className="absolute top-0 left-0"></div>
-            
         </section>
     )
 }
