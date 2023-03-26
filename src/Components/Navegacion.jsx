@@ -7,7 +7,7 @@ const Navegacion = () => {
     <div className="h-screen">
         <nav className="py-7 flex flex-row justify-center md:justify-between items-center">
             <div className="hidden md:flex gap-x-4">
-                <a className="text-white text-lg" href="">Experiencia</a>
+                <a className="text-white text-lg" href="#experiencia">Experiencia</a>
                 <a className="text-white text-lg" href="">Proyectos</a>
                 <a className="text-white text-lg" href="">Contacto</a>
             </div>

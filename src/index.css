@@ -64,11 +64,17 @@ body{
 /*SECCION EXPERIENCIA*/
 
 #background-section{
-  background: conic-gradient(from 180deg at 50% 50%, #00FFE0 0deg, #004eff 360deg);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#00FFE0), color-stop(100%,#7000FF)); /* Webkit */
+  background: -webkit-linear-gradient(45deg, #00FFE0 0%,#7000FF 100%); /* Chrome & Safari */
+  background: -o-linear-gradient(45deg, #00FFE0 0%,#7000FF 100%); /* Opera */
+  background: -ms-linear-gradient(45deg, #00FFE0 0%,#7000FF 100%); /* IE */
+  background: -moz-conic-gradient(from 180deg at 50% 50%, #00FFE0 0deg, #7000FF 360deg); /* Firefox */
+  background: linear-gradient(45deg, #00FFE0 0%,#7000FF 100%); /* Standard syntax (must be last) */
   border: 1px solid #000000;
   filter: blur(750px);
   height: 100%;
   width: 100%;
+  z-index: -1;
 }
 
 #experiencia h1{

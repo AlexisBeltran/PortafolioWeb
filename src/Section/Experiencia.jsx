@@ -21,7 +21,7 @@ const Experiencia = () => {
     return (
         <section id="experiencia" className="relative">
             <div>
-                <h1>Experiencia</h1>
+                <h1 className="mb-10">Experiencia</h1>
                 <div className="md:grid md:grid-cols-3 md:gap-3 block">
                     {
                         experiencia.map(exp => {
