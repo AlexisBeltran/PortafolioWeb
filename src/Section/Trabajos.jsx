@@ -16,7 +16,7 @@ function Trabajos() {
                 </div>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-14 items-left mt-6 flex flex-col-reverse gap-5">
-                <div className="text-left md:text-right flex flex-col justify-around h-full gap-10">
+                <div className="text-left md:text-right flex flex-col justify-around h-full gap-10 items-start">
                     <h2 className="">Nombre del proyecto</h2>
                     <p className="text-justify">Breve descripción del proyecto, Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aperiam dolores repellat ipsum consectetur ab, mollitia placeat cumque, dicta, debitis autem aliquam distinctio exercitationem illo hic architecto est? Ipsum, quae.</p>
                     <a className="flex flex-row-reverse md:flex-row  items-center justify-items-start md:justify-end gap-10">
