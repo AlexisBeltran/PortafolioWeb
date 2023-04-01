@@ -8,7 +8,7 @@ export function loader(){
         {
             id: 1,
             lugar: "Acuicultec",
-            desde: 2021,
+            desde: 2022,
             hasta: "Presente",
             ruta_img: Acuicultec
         }

@@ -78,7 +78,8 @@ body{
 }
 
 #experiencia h1, 
-#trabajos h1{
+#trabajos h1, 
+#habilidades h1{
   color: var(--color-blanco);
   font-size: 36px;
   font-weight: 700;
@@ -94,7 +95,7 @@ body{
 
 #trabajos div div h2{
   color: var(--color-blanco);
-  font-size: 36px;
+  font-size: 30px;
   line-height: 54px;
   font-weight: 700;
 }
@@ -139,6 +140,36 @@ body{
   color: var(--color-blanco);
 }
 
+/* ***FOOTER*** */
+#footer{
+  font-size: 36px;
+}
+#footer span{
+  color: var(--color-primario);
+}
+#contact-footer img{
+  width: 4rem;
+}
+#contact-footer img:hover{
+  cursor: pointer;
+}
+.circle{
+  /* circle */
+  background: linear-gradient(to bottom, #0497ffc7 0%, #007eff 100%);
+  border: 1px solid #000000;
+  -webkit-filter: blur(350px);
+  -moz-filter: blur(350px);
+  -ms-filter: blur(350px);
+  filter: blur(350px);
+  -webkit-transform: matrix(-0.31, -0.95, 0.94, -0.33, 0, 0);
+  -moz-transform: matrix(-0.31, -0.95, 0.94, -0.33, 0, 0);
+  -ms-transform: matrix(-0.31, -0.95, 0.94, -0.33, 0, 0);
+  transform: matrix(-0.31, -0.95, 0.94, -0.33, 0, 0);
+  width: 700px;
+  height: 700px;
+  z-index: -1;
+}
+
 /*MEDIA QUERYS*/
 @media (max-width: 1400px){
   #title-main-name,
@@ -163,10 +194,6 @@ body{
 }
 
 @media (max-width: 768px){
-  #circle{
-    width: 200px;
-    height: 350px;
-  }
   #title-main-name,
   #title-main,
   #title-main-job{
@@ -175,6 +202,9 @@ body{
   }
   #header-show{
     margin-top: 4rem;
+  }
+  #footer{
+    font-size: 20px;
   }
 }
 
