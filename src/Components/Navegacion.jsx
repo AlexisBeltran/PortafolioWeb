@@ -1,6 +1,7 @@
 import Github from "../Assets/Img/Github.svg";
 import LinkedIn from "../Assets/Img/LinkedIn.svg";
 import About from "../Assets/Img/AboutMe-Desktop.svg";
+import AboutPhone from "../Assets/Img/AboutMe-Phone.svg"
 
 const Navegacion = () => {
   return (
@@ -24,7 +25,8 @@ const Navegacion = () => {
                     <span id="title-main-job">Desarrollador web.</span> 
                 </h1>
             </div>
-            <img src={About} className="md:absolute top-0 right-0 w-full h-auto object-cover sm:w-full md:w-1/2"/>       
+            <img src={About} className="md:absolute top-0 right-0 w-full h-auto object-cover sm:w-full md:w-1/2 hidden md:block"/>
+            <img src={AboutPhone} className="md:absolute top-0 right-0 w-full h-auto object-cover sm:w-full md:w-1/2 block md:hidden"/>
         </header>
     </div>        
   )
