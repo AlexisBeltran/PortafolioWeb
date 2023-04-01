@@ -1,6 +1,6 @@
 import Github from "../Assets/Img/Github.svg";
 import LinkedIn from "../Assets/Img/LinkedIn.svg";
-import About from "../Assets/Img/About.svg";
+import About from "../Assets/Img/AboutMe-Desktop.svg";
 
 const Navegacion = () => {
   return (
