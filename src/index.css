@@ -118,6 +118,12 @@ body{
   cursor: pointer;
 }
 
+
+#icons svg{
+  width: 100%;
+  height: 50%;
+}
+
 /* ***CARD*** */
 #trafic-light > div{
   width: 8px;
