@@ -13,8 +13,8 @@ const Navegacion = () => {
                 <a className="text-white text-lg" href="">Contacto</a>
             </div>
             <div className="flex justify-center gap-x-4" id="info-web">
-                <img src={Github} alt="Github"/>
-                <img src={LinkedIn} alt="LinkedIn"/>
+                <a href="https://github.com/AlexisBeltran"><img src={Github} alt="Github"/></a>
+                <a href="https://www.linkedin.com/in/jes%C3%BAs-alexis-beltr%C3%A1n-hern%C3%A1ndez-50ab4b21a/"><img src={LinkedIn} alt="LinkedIn"/></a>
             </div>
         </nav>
         <header className="md:py-7 md:relative" id="header-show">

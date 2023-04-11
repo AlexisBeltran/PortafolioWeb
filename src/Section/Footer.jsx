@@ -8,8 +8,8 @@ const Footer = () => {
       <span>alexis.bhja@gmail.com</span>
 
       <div className="flex flex-row gap-5 justify-center" id="contact-footer">
-        <img src={Github} alt="Github"/>
-        <img src={Linkedin} alt="LinkedIn"/>
+        <a href="https://github.com/AlexisBeltran"><img src={Github} alt="Github"/></a>
+        <a href="https://www.linkedin.com/in/jes%C3%BAs-alexis-beltr%C3%A1n-hern%C3%A1ndez-50ab4b21a/"><img src={Linkedin} alt="LinkedIn"/></a>
       </div>
     </section>
   )
