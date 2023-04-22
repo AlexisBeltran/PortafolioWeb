@@ -176,6 +176,23 @@ body{
   z-index: -1;
 }
 
+#trabajos div div p#title_work{
+  color: var(--color-primario);
+}
+#trabajos div div p#title_work span{
+  color: var(--color-blanco);
+}
+
+#descargar_div{
+  margin-top: 3rem;
+}
+#descargar{
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  font-weight: bold;
+  border-radius: 4px;
+}
+
 /*MEDIA QUERYS*/
 @media (max-width: 1400px){
   #title-main-name,

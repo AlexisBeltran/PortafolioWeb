@@ -9,8 +9,8 @@ const Navegacion = () => {
         <nav className="py-7 flex flex-row justify-center md:justify-between items-center">
             <div className="hidden md:flex gap-x-4">
                 <a className="text-white text-lg" href="#experiencia">Experiencia</a>
-                <a className="text-white text-lg" href="">Proyectos</a>
-                <a className="text-white text-lg" href="">Contacto</a>
+                <a className="text-white text-lg" href="#trabajos">Proyectos</a>
+                <a className="text-white text-lg" href="#footer">Contacto</a>
             </div>
             <div className="flex justify-center gap-x-4" id="info-web">
                 <a href="https://github.com/AlexisBeltran"><img src={Github} alt="Github"/></a>
