@@ -1,6 +1,7 @@
 import TrabajosImg from "./../Assets/Img/Trabajos.svg"
 import AgenciaViaje from "./../Assets/Img/agencia_viajes.png"
 import portfolio from "./../Assets/Img/portfolio.png"
+import apirest from "./../Assets/Img/API_REST.png"
 import ArrowLeft from "./../Assets/Icons/Arrow_left.svg"
 import ArrowRight from "./../Assets/Icons/Arrow_right.svg"
 import Button from "../Components/Button"
@@ -32,6 +33,15 @@ function Trabajos() {
                     </a>
                 </div>
                 <img src={portfolio} alt="Trabajos"/>
+            </div>
+            <div className="md:grid md:grid-cols-2 md:gap-14 flex flex-col items-center mt-6 gap-5">
+                <img src={apirest} alt="Trabajos"/>
+                <div className="text-left flex flex-col justify-around h-full gap-10">
+                    <h2 className="">API REST</h2>
+                    <p className="text-justify">API REST para una aplicación de entrenamiento de CrossFit.</p>
+                    <p id="title_work">Tecnologias: <span>Node.js, Javascript, Express, CI/SD.</span></p>
+                    <a className="flex flex-row items-center gap-10" href="https://apirestcrossfit-production.up.railway.app/api/v1/docs/" target="_blank">Ver proyecto <span><img src={ArrowRight} alt="arrow_right"/></span></a>
+                </div>
             </div>
         </div>
 
