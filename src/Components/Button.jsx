@@ -1,4 +1,4 @@
-import cv from "./../Docs/Beltran_Hernandez_Jesus_Alexis.pdf"
+import cv from "./../Docs/Beltrán_Hernández_Jesús_Alexis.pdf"
 const Button = () => {
   return (
     <div id="descargar_div">
