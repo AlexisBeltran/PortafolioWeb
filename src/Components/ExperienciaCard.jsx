@@ -11,9 +11,10 @@ const ExperienciaCard = ({experiencia}) => {
             </div>
             <div className='flex flex-col justify-between mt-2 h-full' id="body-card">
                 <p className='flex-grow-0 flex-shrink-0 flex-basis-auto mt-2'>{desde}-{hasta} <span className='font-bold'>{lugar}</span></p>
+                <p id="tech">Tecnologias: <span>PHP, MySQL, HTML, CSS, Javascript, Git, Github, SASS, MVC, Active record como ORM</span></p>
                 <img src={ruta_img} alt={lugar} className="flex-1"/>
+
             </div>
-            
         </div>
     )
 }

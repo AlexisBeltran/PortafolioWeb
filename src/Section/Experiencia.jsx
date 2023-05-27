@@ -7,8 +7,8 @@ export function loader(){
     const experiencia = [
         {
             id: 1,
-            lugar: "Acuicultec",
-            desde: 2022,
+            lugar: "Acuicultec S.A de C.V",
+            desde: 2021,
             hasta: "Presente",
             ruta_img: Acuicultec
         }

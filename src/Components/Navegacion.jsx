@@ -19,7 +19,7 @@ const Navegacion = () => {
         </nav>
         <header className="md:py-7 md:relative" id="header-show">
             <div className="flex md:flex-row items-center md:justify-between">
-                <h1 className="flex flex-col" id="title-main">
+                <h1 className="flex flex-col ml3" id="title-main">
                     ¡Hola!{""}
                     <span id="title-main-name">Soy Alexis Beltrán</span>
                     <span id="title-main-job">Desarrollador web.</span> 
