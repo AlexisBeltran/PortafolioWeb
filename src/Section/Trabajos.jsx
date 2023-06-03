@@ -43,7 +43,7 @@ function Trabajos() {
                                         <img src={imgSource[img]} alt="Trabajos"/>
                                         <div className="text-left flex flex-col justify-around h-full gap-10">
                                             <h2 className="">{titulo}</h2>
-                                            <p className="text-justify">{descripcion}.</p>
+                                            <p className="text-justify">{descripcion}</p>
                                             <p id="title_work">{titulo_tec}: <span>{tecnologias}.</span></p>
                                             <a className="flex flex-row items-center gap-10" href={enlace} target="_blank">{redireccionar} <span><img src={ArrowRight} alt="arrow_right"/></span></a>
                                         </div>
