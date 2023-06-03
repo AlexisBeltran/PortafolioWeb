@@ -11,7 +11,10 @@ const router = createBrowserRouter(
     {
       path: "/",
       element: <Index/>, 
-      loader:experienciaLoader
+      loader: async () => {
+        const data = await experienciaLoader();
+        return data;
+      }
     }
   ],
   //AGREGAR BASENAME A LA CONFIGURACIÓN DE BROWSERROUTER

@@ -1,11 +1,13 @@
+import { useLoaderData } from "react-router-dom"
 import Github from "./../Assets/Img/Github.svg"
 import Linkedin from "./../Assets/Img/LinkedIn.svg"
 const Footer = () => {
+  const experiencia = useLoaderData();
   return (
     <section className="text-center text-white flex flex-col gap-6 py-6" id="footer">
-      <p>¡Me gustaría tener tu contacto!</p>
-      <p className="font-bold">¿Tienes un proyecto en mente? ¡Hagámoslo realidad!</p>
-      <span>alexis.bhja@gmail.com</span>
+      <p>{experiencia.contacto.titulo}</p>
+      <p className="font-bold">{experiencia.contacto.cuerpo}</p>
+      <span>{experiencia.contacto.correo}</span>
 
       <div className="flex flex-row gap-5 justify-center" id="contact-footer">
         <a href="https://github.com/AlexisBeltran"><img src={Github} alt="Github"/></a>

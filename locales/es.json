@@ -1,0 +1,77 @@
+{
+    "navegacion" : {
+        "experiencia" : "Experiencia",
+        "proyectos" : "Proyectos",
+        "contacto" : "Contacto"
+    },
+    "presentacion" : {
+        "saludo" : "¡Hola!",
+        "titulo" : "Soy Alexis Beltrán",
+        "especialidad" : "Desarrollador Web"
+    },
+    "experiencia" : {
+        "titulo" : "Experiencia",
+        "trabajos" : [
+            {
+                "id" : 1,
+                "lugar" : "Acuicultec S.A de C.V",
+                "desde" : 2021,
+                "hasta" : "Presente",
+                "titulo_tec" : "Tecnologias",
+                "tecnologias" : "PHP, MySQL, HTML5, CSS3, JavaScript, Git, Github, SASS, Active Record como ORM"
+            }
+        ]
+    },
+    "ultimos_trabajos" : {
+        "titulo" : "Últimos trabajos",
+        "trabajos" : [
+            {
+                "titulo" : "Agencia de viajes",
+                "descripcion" : "El sitio web de la agencia de viajes es una plataforma en línea diseñada para ayudar a los usuarios a planificar y reservar sus viajes de manera fácil y conveniente.",
+                "titulo_tec" : "Tecnologias",
+                "tecnologias" : "Pug, JavaScript, Express.js, Sequelize como ORM, Node.js, Bootstrap, CSS3, MySQL, MVC, CI/CD",
+                "redireccionar": "Ver proyecto",
+                "enlace" : "https://agencia.up.railway.app/",
+                "img" : "agencia_viajes"
+            },
+            {
+                "titulo" : "Portafolio Web",
+                "descripcion" : "Mi portafolio web es una plataforma donde presento mis habilidades y experiencias profesionales. La página de inicio destaca mis áreas de especialización y habilidades más importantes, junto con ejemplos específicos de proyectos que he realizado en cada área.",
+                "titulo_tec" : "Tecnologias",
+                "tecnologias" : "React.js, Tailwind, React router V6, CSS3, HTML5, JavaScript y despliegue con Github Pages",
+                "redireccionar" : "Ver proyecto",
+                "enlace" : "https://alexisbeltran.github.io/PortafolioWeb/",
+                "img" : "portfolio"
+            },
+            {
+                "titulo" : "API REST",
+                "descripcion" : "API REST para una aplicación de entrenamiento de CrossFit",
+                "titulo_tec" : "Tecnologias",
+                "tecnologias" : "Node.js, JavaScript, Express.js, CI/CD",
+                "redireccionar":"Ver proyecto",
+                "enlace": "https://apirestcrossfit-production.up.railway.app/api/v1/docs/",
+                "img" : "api_rest"
+            },
+            {
+                "titulo" : "Clima App",
+                "descripcion" : "Buscador de clima en tiempo real ya sea por ciudad, estado o país.",
+                "titulo_tec": "Tecnologias",
+                "tecnologias" : "HTML5, CSS3, JavaScript, React.js, API, CI/CD",
+                "redireccionar" : "Ver proyecto",
+                "enlace" : "https://alexisbeltran.github.io/weatherApp/",
+                "img" : "clima_app"
+            }
+        ]
+    },
+    "descargar_cv" : {
+        "titulo" : "Descargar CV"
+    },
+    "habilidades" : {
+        "titulo" : "Habilidades"
+    },
+    "contacto" : {
+        "titulo" : "¡Me gustaría tener tu contacto!",
+        "cuerpo" : "¿Tienes un proyecto en mente? ¡Hagámoslo realidad!",
+        "correo" : "alexis.bhja@gmail.com"
+    }
+}
