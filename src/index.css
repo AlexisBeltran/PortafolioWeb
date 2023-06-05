@@ -257,3 +257,15 @@ body{
   height: 13px !important;
   width: 13px !important;
 }
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon{
+  color: var(--color-primario) !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  border-color: var(--color-primario) !important;
+}
+.css-1pysi21-MuiFormLabel-root-MuiInputLabel-root,
+.css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-jedpe8-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input,
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon{
+  color: var(--color-primario) !important;
+}

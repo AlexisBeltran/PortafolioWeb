@@ -1,26 +1,14 @@
-import { useLoaderData } from "react-router-dom";
 import ExperienciaCard from "../Components/ExperienciaCard";
-import Acuicultec from "../Assets/Img/Acuicultec.svg"
+import { useState } from "react";
+import UseIdioma from "../Hooks/UseIdioma";
+import { useLoaderData } from "react-router-dom";
 
 //ESTA FUNCIÓN ES IDEAL PARA CARGAR UN STATE, CONSULTAR UNA API Y OBTENER UN RESULTADO QUE QUIERAS MOSTRAR EN UN COMPONENTE
-export async function loader(){
-    try{
-        const experiencia = await fetch("../../locales/es.json");
-        const experienciaJSON = await experiencia.json();
-        experienciaJSON.experiencia.trabajos = experienciaJSON.experiencia.trabajos.map((items) => {
-            return {
-                ...items,
-                "ruta_img" : Acuicultec 
-            }
-        });
-        return experienciaJSON;
-    }catch(error){
-        return null;
-    }
-}
 
 const Experiencia = () => {
     const experiencia = useLoaderData();
+
+    const [routeImg, setRouteImg] = useState("");
     const experiencia_card = experiencia.experiencia.trabajos;
     const Titulo = experiencia.experiencia.titulo;
     return (

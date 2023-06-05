@@ -4,7 +4,7 @@ import DB_URL from "./consts/index"
 import './index.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import Index from './Section/Index'
-import { loader as experienciaLoader, loader } from './Section/Experiencia'
+import loaders from './Helpers'
 
 const router = createBrowserRouter(
   [
@@ -12,7 +12,7 @@ const router = createBrowserRouter(
       path: "/",
       element: <Index/>, 
       loader: async () => {
-        const data = await experienciaLoader();
+        let data = await loaders();
         return data;
       }
     }

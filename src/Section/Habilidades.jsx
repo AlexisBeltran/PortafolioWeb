@@ -1,10 +1,10 @@
-import { useLoaderData } from 'react-router-dom';
 import Lottie from 'lottie-react';
 import HTML from "./../Assets/Animation/HTML.json"
 import CSS from "./../Assets/Animation/CSS.json"
 import JavaScript from "./../Assets/Animation/JavaScript.json"
 import MYSQL from "./../Assets/Animation/MYSQL.json"
 import GitHub from "./../Assets/Animation/github.json"
+import { useLoaderData } from 'react-router-dom';
 const Habilidades = () => {
   const experiencia = useLoaderData();
   return (

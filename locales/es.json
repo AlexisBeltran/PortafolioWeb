@@ -18,7 +18,8 @@
                 "desde" : 2021,
                 "hasta" : "Presente",
                 "titulo_tec" : "Tecnologias",
-                "tecnologias" : "PHP, MySQL, HTML5, CSS3, JavaScript, Git, Github, SASS, Active Record como ORM"
+                "tecnologias" : "PHP, MySQL, HTML5, CSS3, JavaScript, Git, Github, SASS, Active Record como ORM",
+                "img" : "ruta_img"
             }
         ]
     },

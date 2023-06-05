@@ -3,20 +3,16 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLoaderData } from "react-router-dom";
 import Github from "../Assets/Img/Github.svg";
 import LinkedIn from "../Assets/Img/LinkedIn.svg";
 import About from "../Assets/Img/AboutMe-Desktop.svg";
 import AboutPhone from "../Assets/Img/AboutMe-Phone.svg"
-
+import UseIdioma from '../Hooks/UseIdioma';
 const Navegacion = () => {
     const experiencia = useLoaderData();
-
-    const [age, setAge] = useState("");
-    const handleChange = (e) => {
-        setAge(e.target.value);
-    }
+    const {age, handleChange} = UseIdioma();
 
     return (
         <div className="h-screen">
@@ -36,10 +32,9 @@ const Navegacion = () => {
                             label="Age"
                             onChange={handleChange}
                         >
-                            <MenuItem value="">
-                            </MenuItem>
+                            <MenuItem value=""></MenuItem>
                             <MenuItem value={"ES"}>Español</MenuItem>
-                            <MenuItem value={"EN"}>Ingles</MenuItem>
+                            <MenuItem value={"EN"}>English</MenuItem>
                             
                         </Select>
                     </FormControl>

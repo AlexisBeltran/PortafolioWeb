@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom"
+import { useLoaderData } from "react-router-dom";
 import Github from "./../Assets/Img/Github.svg"
 import Linkedin from "./../Assets/Img/LinkedIn.svg"
 const Footer = () => {
